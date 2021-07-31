@@ -8,6 +8,7 @@ import H1 from './H1';
 import H2 from './H2';
 import {useStateValue }from "./StateProvider"
 import { useState } from 'react';
+import Input from './Input';
 function App() {
   
 //   const store=createStore(Counter)
@@ -31,8 +32,8 @@ function App() {
      
       
      
-      <H2/>
-      <H1/>
+      {/* <Input/> */}
+      
    
      
      
